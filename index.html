@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1, p, div{
+            padding: 0;
+            margin: 0;
+        }
+        .top-content{
+            text-align: center;
+            margin: 20px 0;
+            font-size: 1.3rem;
+        }
+        .client-section{
+            display: flex;
+            flex-direction: column;            
+            /* background-color: aqua; */
+            max-width: 940px;            
+        }
+        .client-logos{
+           display: flex;
+           justify-content: center;
+           gap: 20px;
+           margin-top: 30px;
+        }
+        .client-logos img{
+           width: 100%;
+          
+           
+        }
+        .logo{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;  
+            gap: 20px;  
+            
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            background-color: aliceblue;
+            
+        }
+        .item{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100px;
+            padding: 10px 30px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 20px;
+        }
+        @media (max-width: 700px) {
+        .element {
+            display: none;
+        }
+        .client-logos{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;            
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .client-logos img{
+           width: 60%;                     
+        }
+        .item{
+            width: 60%;
+            height: 80px;
+        }
+        .logo{
+            justify-content: center;
+            align-items: center;
+        }
+      }
+    </style>
+</head>
+<body>
+    <div class="client-section">
+        <div class="top-content">
+            <h1>Clients</h1>
+            <p>We’ve been working with teams around the world.</p>
+        </div>
+        <div class="client-logos">
+            <div class="logo">
+                <div class="item">
+                    <img src="./Logos/logo 1 agoda.png" alt="">
+                </div>
+            </div>
+            <div class="logo">
+                <div class="item">
+                    <img src="./Logos/logo 11 teachable.png" alt="">
+                </div>
+                <div class="item element">
+                    <img src="./Logos/logo 3 bca.png" alt="">
+                </div>
+            </div>
+            <div class="logo">
+                <div class="item">
+                    <img src="./Logos/logo 4 samlead.png" alt="">
+                </div>
+                <div class="item element">
+                    <img src="./Logos/logo 5 jackpot.png" alt="">
+                </div>
+                <div class="item element">
+                    <img src="./Logos/logo 6 sceace.png" alt="">
+                </div>           
+            </div>
+            <div class="logo">                
+                <div class="item">
+                    <img src="./Logos/logo 7 drivable.png" alt="">
+                </div>
+                <div class="item element">
+                    <img src="./Logos/logo 8 mari.png" alt="">
+                </div>
+            </div>
+            <div class="logo">
+                <div class="item">
+                    <img src="./Logos/logo 9 sand.png" alt="">
+                </div>                
+            </div>
+        </div>
+    
+    </div>
+</body>
+</html>
